@@ -15,7 +15,7 @@ hero:
       link: /基础知识/html/01.基础知识
     - theme: alt
       text: 博客搭建
-      link: /博客搭建/VitePress/01.VitePress介绍和安装
+      link: /博客搭建/VitePress/01.前言
 
 features:
   - title: 小建议 💡
