@@ -1,7 +1,7 @@
 @font-face {
     font-family: "Smug black italics";
     font-weight: 700;
-    src: url('../../assets/SmileySans-Oblique.otf') format('woff2');
+    src: url('../../docs/public/assets/SmileySans-Oblique.otf') format('woff2');
 }
 
 :root {
