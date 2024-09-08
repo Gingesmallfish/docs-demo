@@ -1,15 +1,22 @@
 export default {
     '/博客搭建/VitePress/': [{
         text: '文章目录',
-        collapsed: true,
+        collapsed: false,
         items: [
             {text: '01.前言', link: '/博客搭建/VitePress/01.前言'},
             {text: '02.创建项目', link: '/博客搭建/VitePress/02.创建项目'},
             {text: '03.自定义配置', link: '/博客搭建/VitePress/03.自定义配置'},
+        ]
+    }, {
+        text: '主题优化',
+        collapsed: false,
+        items: [
             {text: '04.美化主页', link: '/博客搭建/VitePress/04.美化主页'},
-            {text: '05.主页扩展', link: '/博客搭建/VitePress/05.主页扩展'}
+            {text: '05.主页扩展', link: '/博客搭建/VitePress/05.主页扩展'},
+            {text: '06.美化文章', link: '/博客搭建/VitePress/06.美化文章'},
         ]
     }],
+
     '/基础知识/html/': [{
         text: 'html',
         collapsed: true,
