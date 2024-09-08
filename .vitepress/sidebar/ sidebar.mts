@@ -18,6 +18,12 @@ export default {
             {text: '美化地址栏icon', link: '/博客搭建/VitePress/08.美化地址栏icon'},
             {text: '设置搜索栏', link: '/博客搭建/VitePress/09.设置搜索栏'},
         ]
+    }, {
+        text: 'Github Pages部署',
+        collapsed: false,
+        items: [
+            {text: '使用Github Pages部署', link: '/博客搭建/VitePress/使用Github Pages部署'}
+        ]
     }],
 
     '/基础知识/html/': [{
