@@ -50,7 +50,7 @@ git commit -m "firsr commit"
 
 ## 添加远程仓库到本地
 
-:::tip
+:::warning
 这里换成 `自己的仓库`
 :::
 
