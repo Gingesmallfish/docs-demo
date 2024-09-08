@@ -15,6 +15,8 @@ export default {
             {text: '主页扩展', link: '/博客搭建/VitePress/05.主页扩展'},
             {text: '美化文章', link: '/博客搭建/VitePress/06.美化文章'},
             {text: '文章页扩展', link: '/博客搭建/VitePress/07.文章页扩展'},
+            {text: '美化地址栏icon', link: '/博客搭建/VitePress/08.美化地址栏icon'},
+            {text: '设置搜索栏', link: '/博客搭建/VitePress/09.设置搜索栏'},
         ]
     }],
 
