@@ -21,7 +21,7 @@ export default defineConfig({
     },
 
     themeConfig: {
-        lastUpdatedText: "最后跟新",  // string
+        outlineTitle: '文章目录',
         editLink: {
             // 这里是自己的厂库
             pattern: 'https://github.com/Gingesmallfish/Gingesmallfish.github.io',
