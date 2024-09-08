@@ -12,7 +12,7 @@ export default defineConfig({
     // 最后的跟新的时间
     lastUpdated: true,
 
-    head: [["link", {rel: "icon", href: "/logo.png"}]],
+    head: [["link", {rel: "icon", href: "/public/logo.png"}],],
     // 代码高亮
     markdown: {
         codeTransformers: [
