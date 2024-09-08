@@ -60,6 +60,7 @@ export default defineConfig({
         }
 
     },
+    // 打包主题设置
     vite: {
         ssr: {
             noExternal: [
