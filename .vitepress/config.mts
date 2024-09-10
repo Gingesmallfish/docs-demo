@@ -1,9 +1,12 @@
-import {defineConfig} from 'vitepress'
+import {defineConfigWithTheme} from 'vitepress'
 import nav from "./navbar/nav.mjs";
 import sidebar from "./sidebar/ sidebar.mjs";
 import {transformerTwoslash} from '@shikijs/vitepress-twoslash'
+// 2. 导入需要继承的配置对象
+import escookConfig from '@escook/vitepress-theme/config'
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
+export default defineConfigWithTheme({
+    extends: escookConfig,
     base: "/docs-demo/",
     lang: 'zh-CN',
     title: "Gingesmallfish文档",
@@ -21,6 +24,7 @@ export default defineConfig({
     },
 
     themeConfig: {
+        confetti: true,
         outlineTitle: '文章目录',
         editLink: {
             // 这里是自己的厂库
