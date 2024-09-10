@@ -22,7 +22,8 @@ export default {
         text: 'Github Pages部署',
         collapsed: false,
         items: [
-            {text: '使用Github Pages部署', link: '/博客搭建/VitePress/使用Github Pages部署'}
+            {text: '使用Github Pages部署', link: '/博客搭建/VitePress/使用Github Pages部署'},
+            {text: '补充', link: '/博客搭建/VitePress/补充'},
         ]
     }],
 
