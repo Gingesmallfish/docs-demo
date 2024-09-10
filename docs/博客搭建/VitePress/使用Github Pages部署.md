@@ -19,13 +19,13 @@ base: "/docs-demo/"
 ```
 2, 初始仓库
 
-```gitignore
+```bash
 git init
 ```
 
 ## 添加gitignore文件
 
-```gitignore
+```bash
 node_modules
 .DS_Store
 dist
@@ -38,13 +38,13 @@ cache
 
 ## 添加本地所有文件git仓库
 
-```gitignore
+```bash
 git init
 ```
 
 ## 创建第一次提交
 
-```gitignore
+```bash
 git commit -m "firsr commit"
 ```
 

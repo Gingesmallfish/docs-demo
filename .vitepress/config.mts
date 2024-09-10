@@ -34,7 +34,6 @@ export default defineConfigWithTheme({
         // https://vitepress.dev/reference/default-theme-config
         logo: '/logo.png',
         nav: {...nav} as any,
-        // 搜索
         // 设置搜索框的样式
         search: {
             provider: "local",
