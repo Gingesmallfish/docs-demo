@@ -58,5 +58,12 @@ export default {
             {text: 'js基础', link: '/基础知识/js/01.js基础'}
         ]
     }],
+    '/工具/Git/': [{
+        text: 'Git代码提交规范',
+        collapsed: true,
+        items: [
+            {text: 'git', link: '/工具/Git/git代码提交规范'}
+        ]
+    }]
 
 }

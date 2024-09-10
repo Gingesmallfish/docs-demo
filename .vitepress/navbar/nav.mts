@@ -23,5 +23,14 @@ export default [
                 {text: 'js', link: '基础知识/js/01.js基础'}
             ]
         }]
+    },
+    {
+        text: '工具',
+        items: [{
+            text: 'Git',
+            items: [
+                {text: '提交规范', link: '/工具/Git/git代码提交规范'}
+            ]
+        }]
     }
 ]
