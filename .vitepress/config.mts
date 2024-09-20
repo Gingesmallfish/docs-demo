@@ -22,13 +22,14 @@ export default defineConfig({
 
     themeConfig: {
         outlineTitle: '文章目录',
+        logo: './logo.png',
         editLink: {
             // 这里是自己的厂库
             pattern: 'https://github.com/Gingesmallfish/Gingesmallfish.github.io',
             text: '在 github 上编辑此页'
         },
         // https://vitepress.dev/reference/default-theme-config
-        logo: '/logo.png',
+
         nav: {...nav} as any,
         // 设置搜索框的样式
         search: {

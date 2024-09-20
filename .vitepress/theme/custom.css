@@ -1,8 +1,8 @@
-@font-face {
-    font-family: "Smug black italics";
-    font-weight: 700;
-    src: url('../../docs/public/assets/SmileySans-Oblique.otf') format('woff2');
-}
+/*@font-face {*/
+/*    font-family: "Smug black italics";*/
+/*    font-weight: 700;*/
+/*    src: url('../../docs/public/assets/SmileySans-Oblique.otf') format('woff2');*/
+/*}*/
 
 :root {
     --vp-home-hero-name-color: transparent;
