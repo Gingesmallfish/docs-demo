@@ -22,7 +22,7 @@ export default defineConfig({
 
     themeConfig: {
         outlineTitle: '文章目录',
-        logo: './logo.png',
+        logo: '/logo.png',
         editLink: {
             // 这里是自己的厂库
             pattern: 'https://github.com/Gingesmallfish/Gingesmallfish.github.io',
