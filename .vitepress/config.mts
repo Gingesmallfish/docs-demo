@@ -12,6 +12,7 @@ export default defineConfig({
     // 最后的跟新的时间
     lastUpdated: true,
 
+
     head: [["link", {rel: "icon", href: "/logo.png"}],],
     // 代码高亮
     markdown: {
@@ -58,7 +59,6 @@ export default defineConfig({
         footer: {
             copyright: '姜小鱼版权所有 © 2023-2024 创作不易请尊重他人劳动成果，未经授权禁止转载！',
         }
-
     },
     // 打包主题设置
     vite: {
