@@ -33,13 +33,14 @@ export default {
         items: [
             {text: '基础知识', link: '/基础知识/html/01.基础知识'},
             {text: '页面结构', link: '/基础知识/html/02.页面结构'},
-            {text: '链接与图片', link: '/基础知识/html/03.链接与图片'},
+            {text: '文本相关', link: '/基础知识/html/04.文本相关'},
         ]
     }, {
         text: '表单',
         collapsed: false,
         items: [
-            {text: '文本相关', link: '/基础知识/html/04.文本相关'},
+
+            {text: '链接与图片', link: '/基础知识/html/03.链接与图片'},
             {text: '表单与列表', link: '/基础知识/html/05.表单与列表'},
             {text: '表格与多媒体', link: '/基础知识/html/06.表格与多媒体'}
         ]
