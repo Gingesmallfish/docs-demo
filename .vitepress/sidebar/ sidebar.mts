@@ -27,13 +27,13 @@ export default {
         ]
     }],
 
-    '/基础知识/html/': [{
-        text: 'html',
+    '/基础知识/HTML/': [{
+        text: 'HTML',
         collapsed: true,
         items: [
-            {text: '基础知识', link: '/基础知识/html/01.基础知识'},
-            {text: '页面结构', link: '/基础知识/html/02.页面结构'},
-            {text: '文本相关', link: '/基础知识/html/04.文本相关'},
+            {text: '基础知识', link: '/基础知识/HTML/01.基础知识'},
+            {text: '页面结构', link: '/基础知识/HTML/02.页面结构'},
+            {text: '文本相关', link: '/基础知识/HTML/04.文本相关'},
         ]
     }, {
         text: '表单',
