@@ -29,10 +29,17 @@ export default {
 
     '/基础知识/HTML/': [{
         text: 'HTML',
+        collapsed: false,
         items: [
             { text: '基础知识', link: '/基础知识/HTML/01.基础知识' },
             { text: '页面结构', link: '/基础知识/HTML/02.页面结构' },
             { text: '文本相关', link: '/基础知识/HTML/04.文本相关' },
+
+        ]
+    }, {
+        text: '表单',
+        collapsed: false,
+        items: [
             { text: '链接与图片', link: '/基础知识/HTML/03.链接与图片' },
             { text: '表单与列表', link: '/基础知识/HTML/05.表单与列表' },
             { text: '表格与多媒体', link: '/基础知识/HTML/06.表格与多媒体' }
