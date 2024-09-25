@@ -18,7 +18,7 @@ export default [
         items: [{
             text: '基础知识',
             items: [
-                {text: 'HTML', link: '/基础知识/html/01.基础知识'},
+                {text: 'HTML', link: '/基础知识/HTML/01.基础知识'},
                 {text: 'CSS', link:'/基础知识/css/01.css基础'},
                 {text: 'JS', link: '基础知识/js/01.js基础'}
             ]
