@@ -1,5 +1,5 @@
 export default [
-    {text: '首页', link: '/', activeClass: '首页'},
+    { text: '首页', link: '/', activeClass: '首页' },
     {
         text: '博客搭建',
         items: [{
@@ -18,9 +18,9 @@ export default [
         items: [{
             text: '基础知识',
             items: [
-                {text: 'HTML', link: '/基础知识/HTML/01.基础知识'},
-                {text: 'CSS', link:'/基础知识/css/01.css基础'},
-                {text: 'JS', link: '基础知识/js/01.js基础'}
+                { text: 'HTML', link: '/基础知识/HTML/01.基础知识' },
+                { text: 'CSS', link: '/基础知识/css/01.css基础' },
+                { text: 'JS', link: '基础知识/js/01.js基础' }
             ]
         }]
     },
@@ -29,7 +29,7 @@ export default [
         items: [{
             text: 'Git',
             items: [
-                {text: '提交规范', link: '/工具/Git/git代码提交规范'}
+                { text: '提交规范', link: '/工具/Git/git代码提交规范' }
             ]
         }]
     }
