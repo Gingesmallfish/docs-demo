@@ -7,7 +7,7 @@ export default defineConfig({
     base: "/docs-demo/",
     lang: 'zh-CN',
     title: "Gingesmallfish文档",
-    description: "在线文档，Vue.js,React Webpack JavaScript CSS html",
+    description: "在线文档，Vue.JS,React Webpack JavaScript CSS html",
     srcDir: 'docs',
     // 最后的跟新的时间
     lastUpdated: true,
@@ -31,7 +31,8 @@ export default defineConfig({
         },
         // https://vitepress.dev/reference/default-theme-config
 
-        nav: {...nav} as any,
+        nav: {...nav} as String,
+        sidebar: {...sidebar} as String,
         // 设置搜索框的样式
         search: {
             provider: "local",
@@ -52,7 +53,7 @@ export default defineConfig({
                 },
             },
         },
-        sidebar: {...sidebar} as any,
+
 
 
         // 首页页脚

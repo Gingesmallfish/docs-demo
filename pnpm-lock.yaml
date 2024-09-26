@@ -2067,7 +2067,7 @@ snapshots:
       - axios
       - change-case
       - drauu
-      - fuse.js
+      - fuse.JS
       - idb-keyval
       - jwt-decode
       - less
