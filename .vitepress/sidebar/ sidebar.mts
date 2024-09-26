@@ -29,7 +29,7 @@ export default {
 
     '/基础知识/HTML/': [{
         text: 'HTML',
-        collapsed: false,
+        collapsed: true,
         items: [
             { text: '基础知识', link: '/基础知识/HTML/01.基础知识' },
             { text: '页面结构', link: '/基础知识/HTML/02.页面结构' },
