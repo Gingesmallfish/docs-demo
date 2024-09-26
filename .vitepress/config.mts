@@ -24,6 +24,8 @@ export default defineConfig({
     themeConfig: {
         outlineTitle: '文章目录',
         logo: '/logo.png',
+        // 404
+        notFound: '/404',
         editLink: {
             // 这里是自己的厂库
             pattern: 'https://github.com/Gingesmallfish/Gingesmallfish.github.io',
