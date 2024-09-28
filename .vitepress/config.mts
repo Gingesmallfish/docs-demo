@@ -1,7 +1,7 @@
-import {defineConfig} from 'vitepress'
+import { defineConfig } from 'vitepress'
 import nav from "./navbar/nav.mjs";
 import sidebar from "./sidebar/ sidebar.mjs";
-import {transformerTwoslash} from '@shikijs/vitepress-twoslash'
+import { transformerTwoslash } from '@shikijs/vitepress-twoslash'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
     base: "/docs-demo/",
@@ -13,7 +13,7 @@ export default defineConfig({
     lastUpdated: true,
 
 
-    head: [["link", {rel: "icon", href: "/logo.png"}],],
+    head: [["link", { rel: "icon", href: "/logo.png" }],],
     // 代码高亮
     markdown: {
         codeTransformers: [
@@ -31,8 +31,8 @@ export default defineConfig({
         },
         // https://vitepress.dev/reference/default-theme-config
 
-        nav: {...nav} as String,
-        sidebar: {...sidebar} as String,
+        nav: nav,
+        sidebar: sidebar,
         // 设置搜索框的样式
         search: {
             provider: "local",
