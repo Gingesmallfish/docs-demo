@@ -1,7 +1,7 @@
-import { defineConfig } from 'vitepress'
+import {defineConfig} from 'vitepress'
 import nav from "./navbar/nav.mjs";
 import sidebar from "./sidebar/ sidebar.mjs";
-import { transformerTwoslash } from '@shikijs/vitepress-twoslash'
+import {transformerTwoslash} from '@shikijs/vitepress-twoslash'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
     base: "/docs-demo/",
@@ -13,7 +13,14 @@ export default defineConfig({
     lastUpdated: true,
 
 
-    head: [["link", { rel: "icon", href: "/logo.png" }],],
+    //  添加字体
+    head: [
+        ["link", {rel: "icon", href: "/logo.png"}],
+        [
+            'link',
+            {rel: 'preconnect', href: 'https://fonts.googleapis.com'}
+        ],
+    ],
     // 代码高亮
     markdown: {
         codeTransformers: [
@@ -21,7 +28,14 @@ export default defineConfig({
         ]
     },
 
+
     themeConfig: {
+        // 图片懒加载
+        markdown: {
+            image: {
+                lazyLoading: false
+            }
+        },
         outlineTitle: '文章目录',
         logo: '/logo.png',
         editLink: {

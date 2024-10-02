@@ -36,7 +36,7 @@ export default {
             { text: '文本相关', link: '/基础知识/html/04.文本相关' },
         ]
     }, {
-        text: '表单',
+        text: 'from',
         collapsed: false,
         items: [
             { text: '链接与图片', link: '/基础知识/html/03.链接与图片.md' },
