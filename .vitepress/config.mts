@@ -12,7 +12,6 @@ export default defineConfig({
     // 最后的跟新的时间
     lastUpdated: true,
 
-
     //  添加字体
     head: [
         ["link", {rel: "icon", href: "/logo.png"}],
@@ -68,20 +67,9 @@ export default defineConfig({
             },
         },
 
-
-
         // 首页页脚
         footer: {
             copyright: '姜小鱼版权所有 © 2023-2024 创作不易请尊重他人劳动成果，未经授权禁止转载！',
         }
     },
-    // 打包主题设置
-    vite: {
-        ssr: {
-            noExternal: [
-                '@escook/vitepress-theme',
-                'vitepress'
-            ]
-        }
-    }
 })
