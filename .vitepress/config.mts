@@ -15,6 +15,8 @@ export default defineConfig({
     //  添加字体
     head: [
         ["link", {rel: "icon", href: "/logo.png"}],
+
+        // 谷歌字体
         [
             'link',
             {rel: 'preconnect', href: 'https://fonts.googleapis.com'}
